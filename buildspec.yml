@@ -21,4 +21,4 @@ phases:
 artifacts:
   files:
     - build/**/*
-  name: tutorialapp-$(date +%Y-%m-%d)
+  # name: tutorialapp-$(date +%Y-%m-%d)
