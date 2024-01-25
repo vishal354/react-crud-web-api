@@ -7,10 +7,10 @@ import axios from "axios";
 //   }
 // });
 
-const loadBalancerURL = "http://tutorial-lb-1671621252.us-east-1.elb.amazonaws.com/api"
+// const backendURL = process.env.REACT_APP_BACKEND_URL || "apple"
 
 export default axios.create({
-    baseURL: loadBalancerURL,
+    baseURL: '/api',
     headers: {
         "Content-type": "application/json",
     },

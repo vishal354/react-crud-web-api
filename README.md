@@ -93,3 +93,13 @@ yarn start
 Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
 
 The page will reload if you make edits.
+
+## Docker image related
+Dockerfile contains the commands that we need to create the image of the app.
+The Dockerfile builds the React app and serves it using nginx.
+
+### Note
+The backend url for proxy_pass for location /api needs to be specified in the cong/nginx.conf file.
+
+The container will work only if a valid working BACKEND_URL is given.
+
