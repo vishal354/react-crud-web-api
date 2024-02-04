@@ -8,10 +8,6 @@ RUN npm install
 
 COPY . /app
 
-RUN
-
-# CMD [ "npm", "start" ]
-
 RUN npm run build
 
 FROM nginx:alpine
